@@ -1,0 +1,68 @@
+.swiper-slide {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.swiper-button-next {
+  width: 58px;
+  height: 58px;
+  background: #3b5d501a;
+  border-radius: 360px;
+}
+.swiper-button-prev {
+  width: 58px;
+  height: 58px;
+  background: #3b5d501a;
+  border-radius: 360px;
+}
+
+.swiper-button-next:hover {
+  width: 58px;
+  height: 58px;
+  background: #3b5d50;
+  border-radius: 360px;
+}
+.swiper-button-prev:hover {
+  width: 58px;
+  height: 58px;
+  background: #3b5d50;
+  border-radius: 360px;
+}
+
+.swiper-button-next:hover::after {
+  font-weight: 700;
+  font-size: 15px;
+  color: #fff !important;
+  border-radius: 360px;
+}
+.swiper-button-prev:hover::after {
+  font-weight: 700;
+  font-size: 15px;
+  color: #fff !important;
+  border-radius: 360px;
+}
+
+.swiper-button-next::after {
+  font-weight: 700;
+  font-size: 15px;
+  color: #000;
+  border-radius: 360px;
+}
+.swiper-button-prev::after {
+  font-weight: 700;
+  font-size: 15px;
+  color: #000;
+  border-radius: 360px;
+}
+.swiper-pagination-bullet {
+  width: 7px;
+  height: 7px;
+  background-color: #928d8d;
+}
+.swiper-pagination-bullet-active {
+  width: 7px;
+  height: 7px;
+  background-color: #3b5d50;
+}
